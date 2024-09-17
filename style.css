@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: 'Text-preset1';
+    src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Text-preset2';
+    src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Text-preset3';
+    src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Text-preset4';
+    src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+
+
+body {
+    background-color: #f4d04e;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    .main-card {
+        border: #111111 solid 1px;
+        border-radius: 20px;
+        box-shadow: 8px 8px #000000;
+        width: 24.1rem;
+        height: auto;
+        display: flex;
+        padding: 1.5rem;
+        background: #ffffff;
+        flex-wrap: wrap;
+        .image-card {
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+        .text-card {
+            h1 {
+                width: 5.125rem;
+                background-color: #f4d04e;
+                padding: 4px 12px 4px 12px;
+                font-family: 'Text-preset3';
+                font-size: 14px;
+                font-weight: bold;
+                border-radius: 4px;
+                margin-top: 0px;
+            }
+            h2 {
+                color: #111111;
+                font-family: 'Text-preset3';
+                font-size: 14px;
+                margin-top: 12px;
+            }
+            h3 {
+                color: #111111;
+                font-family: 'Text-preset1';
+                font-size: 24px;
+                margin-top: 16px;
+            }
+            p {
+                color: #6b6b6b;
+                font-family: 'Text-preset2';
+                line-height: 1.5;
+                margin-top: 16px;
+                margin-bottom: 24px;
+            }
+        }
+        .author-card {
+            display: flex;
+            align-items: center;
+            img {
+                width: 32px;
+                height: 32px;
+                margin-right: 12px;
+            }
+            h4 {
+                margin: 0px;
+                font-family: 'Text-preset3';
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.attribution {
+    display: flex;
+    font-family:  'Text-preset1';
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    a:hover{
+        color: red;
+        font-weight: bold;
+    }
+}
+
