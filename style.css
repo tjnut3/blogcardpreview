@@ -5,22 +5,22 @@
 
 @font-face {
     font-family: 'Text-preset1';
-    src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: 'Text-preset2';
-    src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'Text-preset3';
-    src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'Text-preset4';
-    src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf');
 }
 
 
